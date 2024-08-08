@@ -15,11 +15,11 @@
     "frontend:dev": "cd frontend && npm run dev",
     "lint": "cd frontend && npm run lint && cd ../functions && npm run lint",
     "lint:fix": "cd frontend && npm run lint:fix && cd ../functions && npm run lint:fix",
-    "prepare": "husky"
+    "prepare": "husky && husky install"
   },
   "devDependencies": {
     "firebase-tools": "^9.10.0",
-    "husky": "^9.1.4"
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "eslint-define-config": "^2.1.0"
