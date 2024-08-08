@@ -26,7 +26,7 @@ const chatSlice = createSlice({
   name: 'chat',
   initialState,
   reducers: {
-    // eslint-disable-next-line no-unused-vars
+     
     resetChat: (state, _) => ({
       ...initialState,
       sessions: state.sessions,
